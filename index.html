@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To do app</title>
+</head>
+<body>
+    <h1 class="text-center">To-Do List </h1>
+    <h5 class="text-center mt--2">Enter text info the input field to add items to your list </h5>
+    <h5 class="text-center mt--2">Click the "✖️" to remove th item from your list</h5>
+    <h5 class="text-center mt--2">Click the "✔️" to mark it as complete</h5>
+    <form class="mt--2">
+      <input type="text" class="todo-input" placeholder="Input to do">
+        <button class="todo-button" type="submit">
+            <img src="./image/add.png" alt="">
+        </button>
+     </form>
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+    
+    
+    
+    <script src="add.js"></script>
+</body>
+</html>
